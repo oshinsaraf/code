@@ -15,7 +15,7 @@ app.use(
 );
 
 // Set up MongoDB connection
-mongoose.connect('mongodb://localhost/UserDetails', {
+mongoose.connect('mongodb://127.0.0.1:27017/UserDetails', {
   useNewUrlParser: true,
   useUnifiedTopology: true,
 });
